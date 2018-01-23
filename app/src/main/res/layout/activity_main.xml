@@ -8,40 +8,25 @@
     android:orientation="vertical"
     tools:context="com.example.henrikfogbunzel.newfireapplication.MainActivity">
 
-    <ListView
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/newListView"
-        >
+        android:layout_height="wrap_content"
+        android:hint="Enter email id"
+        android:id="@+id/userEmail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:id="@+id/userPass"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loginButtonClicked"
+        android:text="Login"
+        />
 
-    </ListView>
 </LinearLayout>
 
 
-    <!--
-    from before 1:00:27
-     <EditText
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:hint="Enter name"
-         android:id="@+id/name"
-         />
-     <EditText
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:hint="Enter contact"
-         android:id="@+id/contact"
-         />
-     <Button
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:text="Click"
-         android:onClick="buttonClicked"
-         />
-     <TextView
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:text="demo"
-         android:id="@+id/textView"
-         />
- -->
